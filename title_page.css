@@ -1,0 +1,36 @@
+/*background img*/
+body {
+	background: url(screenSaver.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*creates content size on page*/
+body, html {
+	width: 100%;
+	height: 100%;
+}
+/*size of title*/
+h1 {
+	font-weight: 900;
+	font-size: 5em;
+}
+/*content*/
+.content {
+	padding-top: 25%;
+	text-align: center;
+	color: #fff68f;
+	font-family: 'Bitter', serif;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				  0px 8px 13px rgba(0, 0, 0, 0.1),
+				  0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+/*line break*/
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 200, 0.2);
+}
+/*learn more button*/
+#learnMore {
+	background-color: #c6e522;
+}
